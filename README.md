@@ -1,14 +1,14 @@
-# markhobson/node-chrome
+# Forked from markhobson/node-chrome to gain control over Node versions
 
 Docker image for Node.js automated UI tests.
 
 Includes:
 
 * JDK 8
-* Node.js 12.x
+* Node.js 10.x
 * Chrome (latest)
 
-Available on [Docker Hub](https://hub.docker.com/r/markhobson/node-chrome/).
+<!--- Available on [Docker Hub](https://hub.docker.com/r/markhobson/node-chrome/). --->
 
 ## Demo
 
