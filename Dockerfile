@@ -10,6 +10,10 @@ RUN apt update
 
 RUN apt-get install openjdk-18-jre -y
 
+# Git
+
+RUN apt install git -y
+
 # Node.js
 
 RUN apt-get install -y ca-certificates curl gnupg

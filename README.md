@@ -7,6 +7,7 @@ Includes:
 
 * JDK 18
 * Node.js 21.x
+* Git (latest)
 * Chrome (latest)
 * Yarn (latest)
 * PNPM (latest)
@@ -21,30 +22,37 @@ See the [demo](demo) npm project to see how this Docker image can be used to run
 
 * node-chrome:21
   * JDK 18
+  * Git (latest)
   * Chrome (latest)
   * Yarn (latest)
   * PNPM (latest)
 * node-chrome:20
   * JDK 18
+  * Git (latest)
   * Chrome (latest)
   * Yarn (latest)
   * PNPM (latest)
 * node-chrome:18
   * JDK 18
+  * Git (latest)
   * Chrome (latest)
   * Yarn (latest)
   * PNPM (latest)
 * node-chrome:16
   * JDK 18
+  * Git (latest)
   * Chrome (latest)
   * Yarn (latest)
   * PNPM (latest)
 * node-chrome:14
   * JDK 8
-  * Chrome (latest)
+  * Git
+  * Chrome
 * node-chrome:12
   * JDK 8
-  * Chrome (latest)
+  * Git
+  * Chrome
 * node-chrome:10
   * JDK 8
-  * Chrome (latest)
+  * Git
+  * Chrome
