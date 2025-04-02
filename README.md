@@ -6,7 +6,7 @@ Docker image for Node.js automated UI tests.
 Includes:
 
 * JDK 21
-* Node.js 22.x
+* Node.js 23.x
 * Git (latest)
 * Chrome (latest)
 * Yarn (latest)
