@@ -5,14 +5,14 @@ Docker image for Node.js automated UI tests.
 
 Includes:
 
-* JDK 18
-* Node.js 21.x
+* JDK 21
+* Node.js 22.x
 * Git (latest)
 * Chrome (latest)
 * Yarn (latest)
 * PNPM (latest)
 
-Available on [Docker Hub](https://hub.docker.com/r/mrdowden/node-chrome/). When using the docker image select node version via tag, such as `mrdowden/node-chrome:20`. Published tags include node versions 10, 12, 14, 16, 18, 20, and 21.
+Available on [Docker Hub](https://hub.docker.com/r/mrdowden/node-chrome/). When using the docker image select node version via tag, such as `mrdowden/node-chrome:20`. Published tags include node versions 10, 12, 14, 16, 18, 20, 21, 22, and 23.
 
 ## Demo
 
@@ -20,6 +20,18 @@ See the [demo](demo) npm project to see how this Docker image can be used to run
 
 ## Versions
 
+* node-chrome:23
+  * JDK 21
+  * Git (latest)
+  * Chrome (latest)
+  * Yarn (latest)
+  * PNPM (latest)
+* node-chrome:22
+  * JDK 21
+  * Git (latest)
+  * Chrome (latest)
+  * Yarn (latest)
+  * PNPM (latest)
 * node-chrome:21
   * JDK 18
   * Git (latest)

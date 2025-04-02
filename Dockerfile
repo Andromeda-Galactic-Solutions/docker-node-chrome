@@ -6,20 +6,20 @@ SHELL ["/bin/bash", "-c"]
 
 RUN apt update
 
-# JDK 18
+# JDK 21
 
-RUN apt-get install openjdk-18-jre -y
+RUN apt-get install openjdk-21-jre -y
 
 # Git
 
 RUN apt install git -y
 
-# Node.js
+# Node.js 23
 
 RUN apt-get install -y ca-certificates curl gnupg
 RUN mkdir -p /etc/apt/keyrings
 RUN curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
-RUN NODE_MAJOR=21 && echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | tee /etc/apt/sources.list.d/nodesource.list
+RUN NODE_MAJOR=23 && echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | tee /etc/apt/sources.list.d/nodesource.list
 RUN apt-get update
 RUN apt-get install nodejs -y
 
